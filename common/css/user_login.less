@@ -1,0 +1,56 @@
+@imgPath: '/neo/images/layout';
+.userLogin{
+  h1{position:absolute;color:transparent;font-size:0;}
+}
+header{
+  .headerWrap{width:100%;max-width:1200px;margin:0 auto;
+    .site_link{display:inline-block;padding:5px 15px;background-color:#ddd;}
+    .login_title{position:relative;font-size:20px;font-weight:600;text-align:center;
+      .site_logo{position:absolute;color:transparent;font-size:0;}
+    }
+    .text{margin:10px 0 0;text-align:center;}
+  }
+}
+.loginWrap{display:block;width:100%;max-width:1200px;margin:20px auto 0;
+  .tab_contents{position:relative;font-size:0;text-align:center;
+    .tabCnt{display:none;position:absolute;top:70px;left:0;right:0;padding:20px;border:1px solid #bbb;font-size:0;
+      .tab_content_element{display:inline-block;width:~'calc(100% - 20px)';padding:0 10px;font-size:13px;text-align:left;vertical-align:top;}
+      &.element_two .tab_content_element{width:~'calc(50% - 20px)';}
+      &.element_three .tab_content_element{width:~'calc(33.333333% - 20px)';}
+    }
+    .tabButton{padding:5px 15px;border:1px solid #ccc;}
+    .tab_content_wrap{display:inline-block;margin:0 0 0 -1px;font-size:13px;vertical-align:top;
+      &.active{
+        .tabButton{background-color:#ddd;}
+        .tabCnt{display:block;}
+      }
+      .info_text{display:block;width:100%;margin:15px 0 0;font-size:13px;text-align:left;
+        ul{margin:10px 0 0;}
+      }
+    }
+  }
+  .form_wrap{font-size:0;
+    *{font-size:13px;}
+    .input_element, .button_element{display:inline-block;font-size:0;
+      .element_wrap{display:inline-block;font-size:13px;}
+    }
+    button[type="button"],button[type="submit"]{padding:5px 15px;background-color:#555;color:#fff;}
+    .sns_login_button{
+      span{display:inline-block;position:relative;width:20px;height:20px;margin:0 5px 0 0;color:transparent;font-size:0;vertical-align:middle;
+        &:before{display:block;position:absolute;top:50%;left:50%;width:20px;height:20px;background-color:transparent;background-repeat:no-repeat;background-size:auto 100%;transform:translate(-50%, -50%);}
+      }
+      &.naver{
+        span:before{background-image:url('@{imgPath}/sns_naver.svg');}
+      }
+      &.kakao{
+        span:before{background-image:url('@{imgPath}/sns_kakao.svg');}
+      }
+      &.facebook{
+        span:before{background-image:url('@{imgPath}/sns_facebook.svg');}
+      }
+    }
+  }
+}
+footer{display:block;position:absolute;left:0;right:0;bottom:15px;color:#224656;font-size:14px;font-weight:600;letter-spacing:0;line-height:16px;text-align:center;
+  .copyright{margin:10px 0 0;}
+}

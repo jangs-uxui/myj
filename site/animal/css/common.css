@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+/* (주)한신정보기술 권나람 사원 - 2025.01 */
+
+/* 기본세팅 추가 */
+body{overflow-x:hidden;}
+
+/* 다산나루 영역잡기 */
+@media all and (max-width:1500px) and (min-width:1001px) {
+    #header .wrap, #footer .wrap{width:94%;}
+}
+@media all and (max-width:1000px) {
+    .wrap{width:94%;}
+}
+
+/* 다산나루 header 시작 */
+@media all and (min-width:1201px) {
+    body.visualtype[data-layout="wide"] #header{height:146px;}
+}
+/* header_top */
+@media all and (min-width:1001px) {
+    #header .header_top{display:block;position:relative;width:100%;box-sizing:border-box;}
+}
+/* header_box */
+@media all and (min-width:1001px) {
+    #header .header_box{display:block;position:static;width:100%;box-sizing:border-box;}
+}
+@media all and (min-width:1201px) {
+    body.visualtype[data-layout="wide"] #header .header_box .logo{margin-top:6px;}
+}
+@media all and (min-width:1501px) {
+    body.visualtype[data-layout="wide"] #header .header_box .logo{margin-top:7px;}
+}
+@media all and (max-width:1500px) and (min-width:1201px) {
+    #header .header_box .logo a{font-size:22px;}
+}
+@media all and (max-width:1200px) and (min-width:1001px) {
+    #header .header_box .logo a{font-size:19px;}
+    #header .header_box .logo a .logo_image{margin-right:0;}
+}
+/* lnb - 공통 */
+#header .menu .depth2_list .depth2_item:nth-child(n + 6){margin-top:20px;}
+@media all and (min-width:1001px) {
+    #header .menu .depth1_item .depth2{top:98px;}
+}
+@media all and (min-width:1501px) {
+    #header .menu .depth1_item .depth2{padding:0 calc((100% - 1500px) / 2);}
+}
+@media all and (max-width:1780px) and (min-width:1501px) {
+    #header .menu .depth1_list .depth1_item{min-width:150px;}
+}
+@media all and (max-width:1500px) {
+    #header .menu .depth2_list .depth2_item:nth-child(n + 5){margin-top:20px;}
+}
+@media all and (max-width:1500px) and (min-width:1201px) {
+    #header .menu .depth1_list .depth1_item{padding:0 1.3%;}
+    #header .menu .depth1_list .depth1_item .depth1_text{font-size:18px;}
+}
+@media all and (max-width:1500px) and (min-width:1001px) {
+    #header .menu .depth1_list .depth1_item{min-width:auto;}
+}
+@media all and (max-width:1200px) {
+    #header .menu .depth2_list .depth2_item:nth-child(n + 4){margin-top:20px;}
+}
+@media all and (max-width:1200px) and (min-width:1001px) {
+    #header .menu .depth1_list{padding-right:70px;}
+    #header .menu .depth1_list .depth1_item{padding:0 1%;}
+    #header .menu .depth1_list .depth1_item .depth1_text{font-size:17px;}
+}
+@media all and (max-width:1000px) {
+    #header .menu .depth2_list .depth2_item:nth-child(n + 4){margin-top:0;}
+}
+/* lnb - 비쥬얼타입 wide */
+@media all and (min-width:1201px) {
+    body.visualtype[data-layout="wide"] #header .lnb .menu{height:98px;}
+    body.visualtype[data-layout="wide"] #header .menu .depth1_list .depth1_item .depth1_text{line-height:87px;}
+}
+@media all and (max-width:1200px) and (min-width:1001px) {
+    body.visualtype[data-layout="wide"] #header .menu .depth1_list .depth1_item .depth1_text{line-height:56px;}
+    body.visualtype[data-layout="wide"] #header .menu .depth1_list .depth1_item .depth1_text span{padding-bottom:5px;}
+}
+/* header_login */
+@media all and (max-width:1500px) and (min-width:1001px) {
+    #header .header_login{right:3%;}
+}
+@media all and (max-width:1000px) {
+    #header .header_login{display:none;}
+}
+/* 다산나루 header 끝 */
+
+/* 다산나루 container 시작 */
+#container{display:block;position:relative;width:100%;box-sizing:border-box;}
+/* 다산나루 container 끝 */
+
+/* 다산나루 footer 시작 */
+#footer{display:block;position:relative;width:100%;box-sizing:border-box;}
+#footer .footer_address{padding-bottom:97px;}
+@media all and (max-width:1500px) {
+    #footer .footer_address{padding-bottom:85px;}
+}
+@media all and (max-width:1000px) {
+    #footer .footer_address{padding-bottom:70px;}
+}
+@media all and (max-width:640px) {
+    #footer .footer_address{padding-bottom:55px;}
+}
+/* footer_link */
+#footer .footer_address .footer_link .link_item.point_link.type3 a{color:#5aa411;}
+#footer .footer_address .footer_link .link_item.point_link.type3 a:before{background:url(../images/common/footer_icon3.png) no-repeat;}
+@media all and (min-width:1001px) {
+    #footer .footer_address .footer_link .link_item.point_link.type3 a:before{top:2px;}
+}
+@media all and (max-width:1000px) {
+    #footer .footer_address .footer_link .link_item.point_link.type3 a:before{background-size:contain;}
+}
+/* footer_info */
+#footer .footer_address .footer_info{}
+#footer .footer_address .footer_info .footer_item{display:inline-block;position:relative;width:auto;}
+@media all and (max-width:640px) {
+    #footer .footer_address .footer_info .footer_item{display:block;position:relative;width:100%;margin-right:0;}
+    #footer .footer_address .footer_info > p{margin-top:5px;}
+}
+/* 다산나루 footer 끝 */

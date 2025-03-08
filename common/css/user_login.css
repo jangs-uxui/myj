@@ -1,0 +1,30 @@
+.userLogin h1{position:absolute;color:transparent;font-size:0}
+header .headerWrap{width:100%;max-width:1200px;margin:0 auto}
+header .headerWrap .site_link{display:inline-block;padding:5px 15px;background-color:#ddd}
+header .headerWrap .login_title{position:relative;font-size:20px;font-weight:600;text-align:center}
+header .headerWrap .login_title .site_logo{position:absolute;color:transparent;font-size:0}
+header .headerWrap .text{margin:10px 0 0;text-align:center}
+.loginWrap{display:block;width:100%;max-width:1200px;margin:20px auto 0}
+.loginWrap .tab_contents{position:relative;font-size:0;text-align:center}
+.loginWrap .tab_contents .tabCnt{display:none;position:absolute;top:70px;left:0;right:0;padding:20px;border:1px solid #bbb;font-size:0}
+.loginWrap .tab_contents .tabCnt .tab_content_element{display:inline-block;width:calc(100% - 20px);padding:0 10px;font-size:13px;text-align:left;vertical-align:top}
+.loginWrap .tab_contents .tabCnt.element_two .tab_content_element{width:calc(50% - 20px)}
+.loginWrap .tab_contents .tabCnt.element_three .tab_content_element{width:calc(33.333333% - 20px)}
+.loginWrap .tab_contents .tabButton{padding:5px 15px;border:1px solid #ccc}
+.loginWrap .tab_contents .tab_content_wrap{display:inline-block;margin:0 0 0 -1px;font-size:13px;vertical-align:top}
+.loginWrap .tab_contents .tab_content_wrap.active .tabButton{background-color:#ddd}
+.loginWrap .tab_contents .tab_content_wrap.active .tabCnt{display:block}
+.loginWrap .tab_contents .tab_content_wrap .info_text{display:block;width:100%;margin:15px 0 0;font-size:13px;text-align:left}
+.loginWrap .tab_contents .tab_content_wrap .info_text ul{margin:10px 0 0}
+.loginWrap .form_wrap{font-size:0}
+.loginWrap .form_wrap *{font-size:13px}
+.loginWrap .form_wrap .button_element,.loginWrap .form_wrap .input_element{display:inline-block;font-size:0}
+.loginWrap .form_wrap .button_element .element_wrap,.loginWrap .form_wrap .input_element .element_wrap{display:inline-block;font-size:13px}
+.loginWrap .form_wrap button[type=button],.loginWrap .form_wrap button[type=submit]{padding:5px 15px;background-color:#555;color:#fff}
+.loginWrap .form_wrap .sns_login_button span{display:inline-block;position:relative;width:20px;height:20px;margin:0 5px 0 0;color:transparent;font-size:0;vertical-align:middle}
+.loginWrap .form_wrap .sns_login_button span:before{display:block;position:absolute;top:50%;left:50%;width:20px;height:20px;background-color:transparent;background-repeat:no-repeat;background-size:auto 100%;transform:translate(-50%,-50%)}
+.loginWrap .form_wrap .sns_login_button.naver span:before{background-image:url(/neo/images/layout/sns_naver.svg)}
+.loginWrap .form_wrap .sns_login_button.kakao span:before{background-image:url(/neo/images/layout/sns_kakao.svg)}
+.loginWrap .form_wrap .sns_login_button.facebook span:before{background-image:url(/neo/images/layout/sns_facebook.svg)}
+footer{display:block;position:absolute;left:0;right:0;bottom:15px;color:#224656;font-size:14px;font-weight:600;letter-spacing:0;line-height:16px;text-align:center}
+footer .copyright{margin:10px 0 0}

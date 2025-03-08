@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+/* (주)한신정보기술 권나람 사원 - 2025.01 */
+
+/* 다산나루  sub_visual 시작 */
+body.visualtype[data-layout="wide"][data-sub="1"] .sub_visual:before{background-image:url(../images/sub/sub_visual_bg01.png);}
+body.visualtype[data-layout="wide"][data-sub="2"] .sub_visual:before{background-image:url(../images/sub/sub_visual_bg02.png);}
+body.visualtype[data-layout="wide"][data-sub="3"] .sub_visual:before{background-image:url(../images/sub/sub_visual_bg03.png);}
+body.visualtype[data-layout="wide"][data-sub="4"] .sub_visual:before{background-image:url(../images/sub/sub_visual_bg04.png);}
+body.visualtype[data-layout="wide"][data-sub="5"] .sub_visual:before{background-image:url(../images/sub/sub_visual_bg05.png);}
+body.visualtype[data-layout="wide"][data-sub="6"] .sub_visual:before{background-image:url(../images/sub/sub_visual_bg06.png);}
+/* 다산나루  sub_visual 끝 */
+
+/* 다산나루 container 시작 */
+#container{padding:60px 0 0;}
+/* 다산나루 container 끝 */
