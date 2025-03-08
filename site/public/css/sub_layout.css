@@ -20,11 +20,11 @@ body[data-layout="regular"] main{float:right;width:1140px;}
 
 /* 새창 */
 /*.side_menu .depth_list .depth_item .depth_text{word-break:keep-all;}*/
-.side_menu .depth_list .depth_item .depth_text[target="_blank"] span:after{display:none;position:absolute;top:calc(50% - 11px);right:0;width:22px;height:22px;background:url("/site/public/images/sub/side_icon.png") no-repeat -22px 0;}
+.side_menu .depth_list .depth_item .depth_text[target="_blank"] span:after{display:none;position:absolute;top:calc(50% - 11px);right:0;width:22px;height:22px;background:url("/nyj/site/public/images/sub/side_icon.png") no-repeat -22px 0;}
 .side_menu .depth1_list .depth1_item .depth1_text[target="_blank"] span:after{display:block;}
 .side_menu .depth1_item.active .depth2_text[target="_blank"] span:after, .side_menu .depth1_item.active .depth2_item.active .depth3_text[target="_blank"] span:after{display:inline-block;}
 
-.side_menu .depth1_item.active .depth2_text[target="_blank"] span:after, .side_menu .depth1_item.active .depth2_item.active .depth3_text[target="_blank"] span:after{display:inline-block;position:relative;top:-2px;right:auto;vertical-align:top;background-image:url("/site/public/images/sub/side_icon2.png");background-position:0;}
+.side_menu .depth1_item.active .depth2_text[target="_blank"] span:after, .side_menu .depth1_item.active .depth2_item.active .depth3_text[target="_blank"] span:after{display:inline-block;position:relative;top:-2px;right:auto;vertical-align:top;background-image:url("/nyj/site/public/images/sub/side_icon2.png");background-position:0;}
 
 .side_menu .depth_list .depth_item .depth_text[target="_blank"]:hover span:after{background-position-y:-22px;}
 .side_menu .depth1_item.active .depth2_text[target="_blank"]:hover span:after{background-position:-44px 0;}
@@ -41,7 +41,7 @@ body[data-layout="regular"] main{float:right;width:1140px;}
 .side_menu .depth1_list .depth1_item.active .depth1_text{border:none;color:#fff;}
 
 /* 하위메뉴 갖고있는 2차 */
-/*.side_menu .depth1_list .depth1_item.has .depth1_text:after{display:block;position:absolute;top:calc(50% - 11px);right:0;width:22px;height:22px;background:url("/site/public/images/sub/side_icon.png") no-repeat;transition:right 250ms ease-in-out;}*/
+/*.side_menu .depth1_list .depth1_item.has .depth1_text:after{display:block;position:absolute;top:calc(50% - 11px);right:0;width:22px;height:22px;background:url("/nyj/site/public/images/sub/side_icon.png") no-repeat;transition:right 250ms ease-in-out;}*/
 /*.side_menu .depth1_list .depth1_item.has .depth1_text:hover:after{background-position-y:-22px;}*/
 /*.side_menu .depth1_list .depth1_item.has.active .depth1_text:after{right:-22px;background-position-y:-44px;}*/
 
@@ -49,7 +49,7 @@ body[data-layout="regular"] main{float:right;width:1140px;}
 .side_menu .depth1_list .depth1_item.active .depth1_text:before{display:block;opacity:1;transition-property:visibility, opacity;transition-duration:250ms;transition-timing-function:ease-in-out;}
 
 .side_menu .depth1_list .depth1_item .depth1_text span{display:table-cell;padding:18px 30px 18px 0;vertical-align:middle;}
-.side_menu .depth1_list .depth1_item.has .depth1_text span:after{display:block;position:absolute;top:calc(50% - 11px);right:0;width:22px;height:22px;background:url("/site/public/images/sub/side_icon.png") no-repeat;transition:right 250ms ease-in-out;}
+.side_menu .depth1_list .depth1_item.has .depth1_text span:after{display:block;position:absolute;top:calc(50% - 11px);right:0;width:22px;height:22px;background:url("/nyj/site/public/images/sub/side_icon.png") no-repeat;transition:right 250ms ease-in-out;}
 .side_menu .depth1_list .depth1_item.has .depth1_text:hover span:after{background-position-y:-22px;}
 .side_menu .depth1_list .depth1_item.has.active .depth1_text span:after{right:-22px;background-position-y:-44px;}
 
@@ -73,7 +73,7 @@ body[data-layout="regular"] main{float:right;width:1140px;}
 
 .side_menu .depth1_item.active .depth2_list .depth2_item .depth2_text span, .side_menu .depth1_item.active .depth2_item.active .depth3_list .depth3_item .depth3_text span{display:inline;position:relative;padding:0 3px;}
 /*.side_menu .depth1_item.active .depth2_item.active .depth3_list .depth3_item .depth3_text:hover span:before{display:block;position:absolute;bottom:0;left:-3px;width:calc(100% + 6px);height:9px;background-color:#eaf0f9;border-radius:5px;z-index:-1;}*/
-.side_menu .depth1_item.active .depth2_item.active .depth3_list .depth3_item .depth3_text:hover span{background-image:url("/site/public/images/sub/underline.png");background-repeat:repeat-x;background-position:left bottom;}
+.side_menu .depth1_item.active .depth2_item.active .depth3_list .depth3_item .depth3_text:hover span{background-image:url("/nyj/site/public/images/sub/underline.png");background-repeat:repeat-x;background-position:left bottom;}
 
 @media all and (max-width:1500px) {
     body[data-layout="regular"] #container .side{width:250px;}
@@ -93,11 +93,11 @@ body[data-layout="regular"] main{float:right;width:1140px;}
 
 .sub_head .pathbox .path_item{display:inline-block;position:relative;margin-right:30px;vertical-align:top;}
 .sub_head .pathbox .path_item:last-child{margin-right:0;}
-.sub_head .pathbox .path_item:before{display:block;position:absolute;top:0;right:-17px;width:6px;height:100%;background:url("/site/public/images/sub/path_arrow.png") no-repeat center;}
+.sub_head .pathbox .path_item:before{display:block;position:absolute;top:0;right:-17px;width:6px;height:100%;background:url("/nyj/site/public/images/sub/path_arrow.png") no-repeat center;}
 .sub_head .pathbox .path_item:last-child:before{display:none;}
 
 .sub_head .pathbox .path_item .path_btn{font-size:15px;line-height:30px;letter-spacing:-0.025em;font-weight:400;color:#6b6e7b;vertical-align:top;}
-.sub_head .pathbox .path_item.home .path_btn{width:19px;height:30px;font-size:0;line-height:0;background:url("/site/public/images/sub/home_icon.png") no-repeat center;}
+.sub_head .pathbox .path_item.home .path_btn{width:19px;height:30px;font-size:0;line-height:0;background:url("/nyj/site/public/images/sub/home_icon.png") no-repeat center;}
 
 
 .sub_head .sub_title h2{font-size:34px;line-height:64px;letter-spacing:-0.05em;color:#111;font-family:'SBAggro';font-weight:400;}
@@ -111,7 +111,7 @@ body[data-layout="regular"] main{float:right;width:1140px;}
 .sub_head .sharebox .share_wrap:last-child{margin-right:0;}
 
 .sub_head .sharebox .share_wrap .share_btn{position:relative;width:46px;height:46px;border-radius:20px;vertical-align:top;background:linear-gradient(0deg, rgba(255,220,228,1) 0%, rgba(255,246,246,1) 100%);}
-.sub_head .sharebox .share_wrap .share_btn:before{display:block;position:absolute;top:0;left:0;width:100%;height:100%;background:url("/site/public/images/sub/share_icon.png") no-repeat;}
+.sub_head .sharebox .share_wrap .share_btn:before{display:block;position:absolute;top:0;left:0;width:100%;height:100%;background:url("/nyj/site/public/images/sub/share_icon.png") no-repeat;}
 
 .sub_head .sharebox .share_wrap .share_btn.print{background:linear-gradient(-27deg, rgba(203,226,255,1) 0%, rgba(234,244,255,1) 100%);}
 .sub_head .sharebox .share_wrap .share_btn.print:before{background-position-x:-46px;}
@@ -125,14 +125,14 @@ body[data-layout="regular"] main{float:right;width:1140px;}
 }
 
 .sub_head .sharebox .share_wrap.active .share_btn{background:#1b224e;}
-.sub_head .sharebox .share_wrap.active .share_btn:before{background-image:url("/site/public/images/sub/share_icon2.png");background-position:0 0;}
+.sub_head .sharebox .share_wrap.active .share_btn:before{background-image:url("/nyj/site/public/images/sub/share_icon2.png");background-position:0 0;}
 
 
 .sub_head .sharebox .share_wrap .share_list{display:none;position:absolute;top:0;left:0;padding:60px 10px 13px;background-color:#fff;border-radius:20px;box-shadow:4px 7px 10px 0 rgba(0, 0, 0, 0.08);z-index:-1;}
 .sub_head .sharebox .share_wrap.active .share_list{}
 
 .sub_head .sharebox .share_wrap .share_list li + li{margin-top:10px;}
-.sub_head .sharebox .share_wrap .share_list a{width:26px;height:26px;vertical-align:top;background:url("/site/public/images/sub/share_sns.png");}
+.sub_head .sharebox .share_wrap .share_list a{width:26px;height:26px;vertical-align:top;background:url("/nyj/site/public/images/sub/share_sns.png");}
 .sub_head .sharebox .share_wrap .share_list a.facebook{background-position-x:-26px;}
 .sub_head .sharebox .share_wrap .share_list a.blog{background-position-x:-52px;}
 .sub_head .sharebox .share_wrap .share_list a.kakaostory{background-position-x:-78px;}
@@ -199,8 +199,8 @@ body.visualtype .sub_visual .sub_head .sub_title h2{margin-bottom:17px;color:#ff
 body.visualtype .sub_visual .sub_head_wrap{text-align:center;font-size:0;line-height:0;}
 body.visualtype .sub_visual .pathbox{display:inline-block;margin:2px 20px 2px 0;vertical-align:top;}
 body.visualtype .sub_visual .pathbox .path_item .path_btn{color:rgba(255, 255, 255, 0.8);}
-body.visualtype .sub_visual .pathbox .path_item.home a{background-image:url("/site/public/images/sub/w_home_icon.png");}
-body.visualtype .sub_visual .pathbox .path_item:before{background-image:url("/site/public/images/sub/w_path_arrow.png");}
+body.visualtype .sub_visual .pathbox .path_item.home a{background-image:url("/nyj/site/public/images/sub/w_home_icon.png");}
+body.visualtype .sub_visual .pathbox .path_item:before{background-image:url("/nyj/site/public/images/sub/w_path_arrow.png");}
 
 @media all and (min-width:1001px) {
     body.visualtype .sub_visual .sharebox .share_wrap .share_btn:hover{background-color:#bd2148;border-color:#bd2148;}
@@ -212,7 +212,7 @@ body.visualtype .sub_visual .sharebox .share_wrap{margin-right:5px;}
 body.visualtype .sub_visual .sharebox .share_wrap .share_btn{width:34px;height:34px;border-radius:15px;border:1px solid rgba(255, 255, 255, 0.6);background-image:none;}
 body.visualtype .sub_visual .sharebox .share_wrap.active .share_btn{border-color:#1b224e;background-color:#1b224e;}
 
-body.visualtype .sub_visual .sharebox .share_wrap .share_btn:before{background-image:url("/site/public/images/sub/share_icon3.png");background-position:-1px -1px;}
+body.visualtype .sub_visual .sharebox .share_wrap .share_btn:before{background-image:url("/nyj/site/public/images/sub/share_icon3.png");background-position:-1px -1px;}
 body.visualtype .sub_visual .sharebox .share_wrap.active .share_btn:before{background-position-y:-35px;}
 body.visualtype .sub_visual .sharebox .share_wrap .share_btn.print:before{background-position-x:-35px;}
 
@@ -244,7 +244,7 @@ body.visualtype .sub_visual .sharebox .share_wrap .share_list li + li{margin-top
 body.visualtype[data-layout="regular"] #container{padding-top:80px;}
 
 body.visualtype[data-layout="regular"] .sub_visual{position:relative;}
-body.visualtype[data-layout="regular"] .sub_visual:before{display:block;position:absolute;top:0;left:-130px;width:calc(100% + 260px);height:100%;background:url("/site/public/images/sub/visual_sub_img1.png") no-repeat center;background-size:cover;border-radius:35px;}
+body.visualtype[data-layout="regular"] .sub_visual:before{display:block;position:absolute;top:0;left:-130px;width:calc(100% + 260px);height:100%;background:url("/nyj/site/public/images/sub/visual_sub_img1.png") no-repeat center;background-size:cover;border-radius:35px;}
 
 body.visualtype[data-layout="regular"] .sub_visual .sub_head{padding-top:194px;padding-bottom:165px;border-bottom:none;}
 
@@ -281,7 +281,7 @@ body.visualtype[data-layout="regular"] .side .side_title .innerbox .title{color:
 }
 
 body.visualtype[data-layout="wide"] .sub_visual{position:relative;width:100%;height:100%;padding-top:86px;}
-body.visualtype[data-layout="wide"] .sub_visual:before{display:block;position:absolute;top:0;width:100%;height:calc(100% - 60px);background:url("/site/public/images/sub/visual_sub_img2.png") no-repeat center;background-size:cover;z-index:-1;}
+body.visualtype[data-layout="wide"] .sub_visual:before{display:block;position:absolute;top:0;width:100%;height:calc(100% - 60px);background:url("/nyj/site/public/images/sub/visual_sub_img2.png") no-repeat center;background-size:cover;z-index:-1;}
 body.visualtype[data-layout="wide"] .sub_visual .sub_title{display:table;width:100%;height:564px;}
 body.visualtype[data-layout="wide"] .sub_visual .sub_title h2{display:table-cell;vertical-align:middle;text-align:center;font-size:58px;line-height:70px;}
 
@@ -297,15 +297,15 @@ body[data-layout="wide"] .sub_visual .pathbox .path_item.home{width:60px;}
 body[data-layout="wide"] .sub_visual .pathbox .path_item.home:after{display:block;position:absolute;top:0;left:0;width:1px;height:100%;background-color:#e7e8ec;}
 
 body[data-layout="wide"] .sub_visual .pathbox .path_item .path_btn{position:relative;height:60px;width:100%;padding:5px 40px 5px 20px;font-size:16px;line-height:24px;letter-spacing:-0.02em;color:#45484e;text-align:left;}
-body[data-layout="wide"] .sub_visual .pathbox .path_item:not(.home) .path_btn:after{display:block;position:absolute;bottom:20px;right:17px;width:20px;height:20px;background:url("/site/public/images/sub/path_arrow2.png") no-repeat;}
+body[data-layout="wide"] .sub_visual .pathbox .path_item:not(.home) .path_btn:after{display:block;position:absolute;bottom:20px;right:17px;width:20px;height:20px;background:url("/nyj/site/public/images/sub/path_arrow2.png") no-repeat;}
 
 body[data-layout="wide"] .sub_visual .pathbox .path_item .path_btn:hover, body[data-layout="wide"] .sub_visual .pathbox .path_item.home .path_btn:hover{background-color:#f5f7fa;}
-body[data-layout="wide"] .sub_visual .pathbox .path_item.home .path_btn{font-size:0;line-height:0;background:url("/site/public/images/sub/home_icon2.png") no-repeat center;}
+body[data-layout="wide"] .sub_visual .pathbox .path_item.home .path_btn{font-size:0;line-height:0;background:url("/nyj/site/public/images/sub/home_icon2.png") no-repeat center;}
 
 body[data-layout="wide"] .sub_visual .pathbox .path_item .path_selectlist{display:none;position:absolute;width:calc(100% + 1px);border:1px solid #1b224e;border-top:none;box-shadow:9px 16px 30px 0 rgba(0, 0, 0, 0.1);box-sizing:border-box;border-radius:0 0 15px 15px;z-index:30;background-color:#fff;}
 body[data-layout="wide"] .sub_visual .pathbox .path_item .path_selectlist .path_selectitem .path_link{display:table;position:relative;width:100%;min-height:60px;padding:5px 40px 5px 20px;font-size:16px;line-height:24px;letter-spacing:-0.02em;color:#1b224e;text-decoration:none;border-bottom:1px solid #e7e8ec;}
 body[data-layout="wide"] .sub_visual .pathbox .path_item .path_selectlist .path_selectitem:last-child .path_link{border-bottom:none;}
-body[data-layout="wide"] .sub_visual .pathbox .path_item .path_selectlist .path_selectitem .path_link:before{display:block;position:absolute;top:calc(50% - 10px);right:40px;width:20px;height:20px;background:url("/site/public/images/sub/path_arrow2.png") no-repeat;background-position-x:-40px;opacity:0;}
+body[data-layout="wide"] .sub_visual .pathbox .path_item .path_selectlist .path_selectitem .path_link:before{display:block;position:absolute;top:calc(50% - 10px);right:40px;width:20px;height:20px;background:url("/nyj/site/public/images/sub/path_arrow2.png") no-repeat;background-position-x:-40px;opacity:0;}
 
 body[data-layout="wide"] .sub_visual .pathbox .path_item .path_selectlist .path_selectitem .path_link:hover{padding-left:32px;background-color:#f5f7fa;transition:padding 250ms ease-in-out;}
 body[data-layout="wide"] .sub_visual .pathbox .path_item .path_selectlist .path_selectitem .path_link:hover:before{right:30px;opacity:1;transition:right 250ms ease-in-out;}
@@ -330,7 +330,7 @@ body.visualtype[data-layout="wide"] .sub_visual .pathbox .path_item.has.active .
     body.visualtype[data-layout="wide"] #contents{margin-top:0}
 
     body.visualtype[data-layout="wide"] .sub_visual .sub_head_wrap{position:absolute;bottom:13px;right:6px;}
-    body.visualtype[data-layout="wide"] .sub_visual .sharebox .share_wrap:not(.active) .share_btn:before{background-image:url("/site/public/images/sub/share_icon4.png");}
+    body.visualtype[data-layout="wide"] .sub_visual .sharebox .share_wrap:not(.active) .share_btn:before{background-image:url("/nyj/site/public/images/sub/share_icon4.png");}
     body.visualtype[data-layout="wide"] .sub_visual .sharebox .share_wrap:not(.active) .share_btn:hover{background-color:#fff;border-color:#fff;}
     body.visualtype[data-layout="wide"] .sub_visual .sharebox .share_wrap:not(.active) .share_btn:hover:before{background-position-y:-35px;}
 }
@@ -372,7 +372,7 @@ body.normal[data-layout="wide"] .sub_head .pathbox .path_item.home a{height:21px
 body.normal[data-layout="wide"] .sub_head .pathbox .path_item:not(.home) .path_btn{padding:0 30px 0 20px;}
 body.normal[data-layout="wide"] .sub_head .pathbox .path_item:last-child{margin-right:20px;}
 body.normal[data-layout="wide"] .sub_head .pathbox .path_item:not(.home) .path_btn{position:relative;min-width:160px;padding-right:45px;}
-body.normal[data-layout="wide"] .sub_head .pathbox .path_item .path_btn:before{display:block;position:absolute;top:calc(50% - 12px);right:3px;width:24px;height:24px;border-radius:50%;background:url("/site/public/images/sub/path_arrow3.png") no-repeat;transition:background-color 250ms ease-in-out;}
+body.normal[data-layout="wide"] .sub_head .pathbox .path_item .path_btn:before{display:block;position:absolute;top:calc(50% - 12px);right:3px;width:24px;height:24px;border-radius:50%;background:url("/nyj/site/public/images/sub/path_arrow3.png") no-repeat;transition:background-color 250ms ease-in-out;}
 body.normal[data-layout="wide"] .sub_head .pathbox .path_item.home .path_btn:before{display:none;}
 
 body.normal[data-layout="wide"] .sub_head .pathbox .path_item.active .path_btn:before{background-position-x:-24px;background-color:#45484e;transition:background-color 250ms ease-in-out;}
@@ -388,7 +388,7 @@ body.normal[data-layout="wide"] .sub_head .sharebox{bottom:auto;top:12px;}
 body.normal[data-layout="wide"] .sub_head .sharebox .share_wrap .share_btn{width:34px;height:34px;background:#fff;border-radius:15px;}
 body.normal[data-layout="wide"] .sub_head .sharebox .share_wrap.active .share_btn{background:#1b224e;}
 
-body.normal[data-layout="wide"] .sub_head .sharebox .share_wrap .share_btn:before{background-image:url("/site/public/images/sub/share_icon4.png");}
+body.normal[data-layout="wide"] .sub_head .sharebox .share_wrap .share_btn:before{background-image:url("/nyj/site/public/images/sub/share_icon4.png");}
 body.normal[data-layout="wide"] .sub_head .sharebox .share_wrap .share_btn:hover:before{background-position-y:-34px;}
 body.normal[data-layout="wide"] .sub_head .sharebox .share_wrap.active .share_btn:before{background-position-y:-68px;}
 

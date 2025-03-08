@@ -122,10 +122,10 @@ body:not(.visualtype[data-layout="wide"]) #header .header_top{position:relative;
 #header .family_wrap:before{display:block;position:absolute;top:calc(50% - 7px);left:0;width:1px;height:15px;background-color:#d4d9e2;}
 #header .family_wrap .family_btn{position:relative;padding:0 22px 0 45px;font-size:15px;line-height:32px;color:#142241;letter-spacing:-0.02em;font-weight:500;}
 #header .family_wrap .family_btn:hover{color:#b52043;}
-#header .family_wrap .family_btn:before{display:block;position:absolute;top:calc(50% - 8px);left:22px;width:18px;height:16px;background:url("/site/public/images/common/family_icon.png") no-repeat;}
-#header .family_wrap .family_btn:hover:before{background-image:url("/site/public/images/common/family_icon_hover.png");}
-#header .family_wrap .family_btn:after{display:block;position:absolute;top:calc(50% - 3px);right:0;width:9px;height:6px;background:url("/site/public/images/common/family_arrow.png") no-repeat;}
-#header .family_wrap .family_btn:hover:after{background-image:url("/site/public/images/common/family_arrow_hover.png");}
+#header .family_wrap .family_btn:before{display:block;position:absolute;top:calc(50% - 8px);left:22px;width:18px;height:16px;background:url("/nyj/site/public/images/common/family_icon.png") no-repeat;}
+#header .family_wrap .family_btn:hover:before{background-image:url("/nyj/site/public/images/common/family_icon_hover.png");}
+#header .family_wrap .family_btn:after{display:block;position:absolute;top:calc(50% - 3px);right:0;width:9px;height:6px;background:url("/nyj/site/public/images/common/family_arrow.png") no-repeat;}
+#header .family_wrap .family_btn:hover:after{background-image:url("/nyj/site/public/images/common/family_arrow_hover.png");}
 
 #header .family_wrap .family_box{display:none;position:fixed;top:0;left:0;width:100%;height:100%;background-color:rgba(61, 70, 97, 0.8);/*transition-property:visibility, opacity;transition-duration:0.25s;transition-timing-function:linear;*/opacity:0;z-index:100;visibility:hidden;backdrop-filter:blur(5px);-webkit-backdrop-filter:blur(5px);}
 #header .family_wrap .family_box.active{display:block;opacity:1;visibility:visible;transition-property:opacity;transition-timing-function:ease-in-out;transition-duration:250ms;}
@@ -135,11 +135,11 @@ body:not(.visualtype[data-layout="wide"]) #header .header_top{position:relative;
 
 #header .family_wrap .family_box .family_header{position:relative;padding:58px 70px 39px;background-color:#f4f6f9;border-radius:50px 50px 0 0;overflow:hidden;}
 #header .family_wrap .family_box .family_header:before{display:block;position:absolute;top:84px;left:calc(50% - 885px);width:405px;height:405px;background-color:#eaedf2;border-radius:50%;}
-#header .family_wrap .family_box .family_header:after{display:block;position:absolute;bottom:24px;right:calc(50% - 650px);width:485px;height:485px;background:url("/site/public/images/common/family_bg.png") no-repeat;}
+#header .family_wrap .family_box .family_header:after{display:block;position:absolute;bottom:24px;right:calc(50% - 650px);width:485px;height:485px;background:url("/nyj/site/public/images/common/family_bg.png") no-repeat;}
 
 #header .family_wrap .family_box .family_header .family_title{position:relative;text-align:center;font-size:20px;line-height:24px;color:#666f7e;font-weight:400;z-index:1;}
-#header .family_wrap .family_box .family_header .family_title:before{display:block;position:absolute;top:-7px;left:calc(50% - 370px);width:102px;height:103px;background:url("/site/public/images/common/family_img1.png") no-repeat;}
-#header .family_wrap .family_box .family_header .family_title:after{display:block;position:absolute;top:-3px;right:calc(50% - 370px);width:102px;height:98px;background:url("/site/public/images/common/family_img2.png") no-repeat;}
+#header .family_wrap .family_box .family_header .family_title:before{display:block;position:absolute;top:-7px;left:calc(50% - 370px);width:102px;height:103px;background:url("/nyj/site/public/images/common/family_img1.png") no-repeat;}
+#header .family_wrap .family_box .family_header .family_title:after{display:block;position:absolute;top:-3px;right:calc(50% - 370px);width:102px;height:98px;background:url("/nyj/site/public/images/common/family_img2.png") no-repeat;}
 
 #header .family_wrap .family_box .family_header .family_title span{width:100%;font-family:'SBAggro';font-weight:400;color:#1b224e;font-size:37px;line-height:61px;}
 #header .family_wrap .family_box .family_header .family_title em{color:#bd2148;}
@@ -150,10 +150,10 @@ body:not(.visualtype[data-layout="wide"]) #header .header_top{position:relative;
 #header .family_wrap .family_box .family_header .family_sns .sns_link a{position:relative;width:30px;height:30px;background-color:#e30000;border-radius:10px;}
 #header .family_wrap .family_box .family_header .family_sns .sns_link.facebook a{background-color:#4662bc;}
 #header .family_wrap .family_box .family_header .family_sns .sns_link.blog a{background-color:#33c437;}
-#header .family_wrap .family_box .family_header .family_sns .sns_link.instagram a{background-image:url("/site/public/images/common/family_insta.png");background-size:cover;background-repeat:no-repeat;background-color:transparent;}
+#header .family_wrap .family_box .family_header .family_sns .sns_link.instagram a{background-image:url("/nyj/site/public/images/common/family_insta.png");background-size:cover;background-repeat:no-repeat;background-color:transparent;}
 #header .family_wrap .family_box .family_header .family_sns .sns_link.kakao a{background-color:#ffde58;}
 
-#header .family_wrap .family_box .family_header .family_sns .sns_link a:before{display:block;position:absolute;top:0;left:0;width:100%;height:100%;background:url("/site/public/images/common/family_sns.png") no-repeat;}
+#header .family_wrap .family_box .family_header .family_sns .sns_link a:before{display:block;position:absolute;top:0;left:0;width:100%;height:100%;background:url("/nyj/site/public/images/common/family_sns.png") no-repeat;}
 #header .family_wrap .family_box .family_header .family_sns .sns_link.facebook a:before{background-position-x:-30px;}
 #header .family_wrap .family_box .family_header .family_sns .sns_link.blog a:before{background-position-x:-60px;}
 #header .family_wrap .family_box .family_header .family_sns .sns_link.instagram a:before{background-position-x:-90px;}
@@ -179,11 +179,11 @@ body:not(.visualtype[data-layout="wide"]) #header .header_top{position:relative;
 
 #header .family_wrap .family_box .family_list .family_item .link_list .family_link a{position:relative;width:100%;font-size:15px;line-height:32px;color:#242a3a;font-weight:400;}
 #header .family_wrap .family_box .family_list .family_item .link_list .family_link a:hover{color:#1d2f9b;}
-#header .family_wrap .family_box .family_list .family_item .link_list .family_link a[target="_blank"]:after{display:inline-block;position:relative;width:12px;height:12px;background:url("/site/public/images/common/family_new.png");}
+#header .family_wrap .family_box .family_list .family_item .link_list .family_link a[target="_blank"]:after{display:inline-block;position:relative;width:12px;height:12px;background:url("/nyj/site/public/images/common/family_new.png");}
 #header .family_wrap .family_box .family_list .family_item .link_list .family_link a[target="_blank"]:hover:after{background-position-x:-12px;}
 
 #header .family_wrap .family_box .family_content .family_close{position:absolute;top:-32px;right:70px;width:65px;height:65px;background-color:#292f55;box-shadow:0 12px 20px 0 rgba(73, 81, 96, 0.16);border-radius:50%;font-size:0;line-height:0;}
-#header .family_wrap .family_box .family_content .family_close:before{display:block;position:absolute;top:0;left:0;width:100%;height:100%;background:url("/site/public/images/common/family_close.png") center no-repeat;}
+#header .family_wrap .family_box .family_content .family_close:before{display:block;position:absolute;top:0;left:0;width:100%;height:100%;background:url("/nyj/site/public/images/common/family_close.png") center no-repeat;}
 
 @media all and (min-width:1501px) and (min-height:903px) {
 #header .family_wrap .family_box .family_content{max-height:780px; height:calc(100vh - 138px);}
@@ -283,7 +283,7 @@ body:not(.visualtype[data-layout="wide"]) #header .header_top{position:relative;
     #header .family_wrap .family_box .family_list .family_item .item_title{position:relative;padding:0 30px;text-align:left;font-size:18px;line-height:60px;color:#767b89;border-radius:15px;background-color:#f4f6f9;border:1px solid #ced1da;box-sizing:border-box;z-index:1;}
     #header .family_wrap .family_box .family_list .family_item.active .item_title{background-color:#2e76d2;color:#fff;border-color:#2e76d2;}
 
-    #header .family_wrap .family_box .family_list .family_item .item_title:before{display:block;position:absolute;top:calc(50% - 5px);right:30px;width:14px;height:9px;background:url("/site/public/images/common/family_arrow2.png") no-repeat;}
+    #header .family_wrap .family_box .family_list .family_item .item_title:before{display:block;position:absolute;top:calc(50% - 5px);right:30px;width:14px;height:9px;background:url("/nyj/site/public/images/common/family_arrow2.png") no-repeat;}
     #header .family_wrap .family_box .family_list .family_item.active .item_title:before{background-position-x:-14px;}
 
     #header .lnb .family_wrap .family_item.active .link_list{display:block;}
@@ -336,7 +336,7 @@ html:not(.lnb_open) body[data-layouttype="visualtype"][data-layout="regular"] #h
 #header .header_box .logo a{vertical-align:top;font-size:24px;line-height:32px;letter-spacing:-0.05em;font-weight:600;color:#3d4254;text-decoration:none;}
 
 #header .header_box .logo a span{vertical-align:top;}
-#header .header_box .logo a .logo_image{width:171px;height:68px;margin-right:4px;background:url("/site/public/images/common/logo.png") no-repeat;font-size:0;line-height:0;}
+#header .header_box .logo a .logo_image{width:171px;height:68px;margin-right:4px;background:url("/nyj/site/public/images/common/logo.png") no-repeat;font-size:0;line-height:0;}
 #header .header_box .logo a .site_name{margin-top:21px;}
 
 /* header_login */
@@ -344,21 +344,21 @@ html:not(.lnb_open) body[data-layouttype="visualtype"][data-layout="regular"] #h
 
 #header .header_login .login_wrap .login{display:inline-block;vertical-align:top;}
 #header .header_login .login_wrap .login .login_button{position:relative;width:40px;height:40px;}
-#header .header_login .login_wrap .login .login_button:before{display:block;position:absolute;top:0;left:0;width:100%;height:100%;background:url("/site/public/images/common/login_icon.png") no-repeat center;}
-#header .header_login .login_wrap .login .login_button.logout:before{background-image:url("/site/public/images/common/logout_icon02.png")}
-#header .header_login .login_wrap .login .login_button.logout:hover:before{background-image:url("/site/public/images/common/logout_icon_hover02.png")}
+#header .header_login .login_wrap .login .login_button:before{display:block;position:absolute;top:0;left:0;width:100%;height:100%;background:url("/nyj/site/public/images/common/login_icon.png") no-repeat center;}
+#header .header_login .login_wrap .login .login_button.logout:before{background-image:url("/nyj/site/public/images/common/logout_icon02.png")}
+#header .header_login .login_wrap .login .login_button.logout:hover:before{background-image:url("/nyj/site/public/images/common/logout_icon_hover02.png")}
 
 #header .header_login .login_wrap .sitemap{display:inline-block;vertical-align:top;}
 #header .header_login .login_wrap .sitemap a{position:relative;width:40px;height:40px;}
-#header .header_login .login_wrap .sitemap a:before, #header .header_box .menu_show .menu_button:before{display:block;position:absolute;top:0;left:0;width:100%;height:100%;background:url("/site/public/images/common/sitemap_icon.png") no-repeat center right;}
+#header .header_login .login_wrap .sitemap a:before, #header .header_box .menu_show .menu_button:before{display:block;position:absolute;top:0;left:0;width:100%;height:100%;background:url("/nyj/site/public/images/common/sitemap_icon.png") no-repeat center right;}
 
 @media all and (max-width:1500px) {
     #header .header_login{right:calc((100% - 1200px) / 2);}
 }
 
 @media all and (min-width:1001px) {
-    #header .header_login .login_wrap .login .login_button:hover:before{background-image:url("/site/public/images/common/login_icon_hover.png");}
-    #header .header_login .login_wrap .sitemap a:hover:before{background-image:url("/site/public/images/common/sitemap_icon_hover.png");}
+    #header .header_login .login_wrap .login .login_button:hover:before{background-image:url("/nyj/site/public/images/common/login_icon_hover.png");}
+    #header .header_login .login_wrap .sitemap a:hover:before{background-image:url("/nyj/site/public/images/common/sitemap_icon_hover.png");}
 }
 
 @media all and (max-width:1000px) {
@@ -402,7 +402,7 @@ html:not(.lnb_open) body[data-layouttype="visualtype"][data-layout="regular"] #h
 #header .menu .depth3_list .depth3_item .depth3_text:before{display:block;position:absolute;top:15px;left:0;width:4px;height:4px;border-radius:50%;background-color:#50545f;}
 /* 24.02추가 */
 #header .menu .depth3_list .depth3_item .depth3_text em{position: relative; width:100%; padding-right: 20px;}
-#header .menu .depth3_list .depth3_item .depth3_text[target="_blank"] em:before{display: block;content:'';width:13px;height:13px;background-image: url(/site/public/images/sub/depth3_icon.png);background-position:0 0;position: absolute;top:calc(50% - 7px);right:0px;}
+#header .menu .depth3_list .depth3_item .depth3_text[target="_blank"] em:before{display: block;content:'';width:13px;height:13px;background-image: url(/nyj/site/public/images/sub/depth3_icon.png);background-position:0 0;position: absolute;top:calc(50% - 7px);right:0px;}
 #header .menu .depth1_item:nth-of-type(5) .depth2_item:nth-of-type(4) .depth3_list .depth3_item:nth-child(n+4){width:50%;float: left;}
 
 @media all and (max-width:1500px) {
@@ -461,7 +461,7 @@ html:not(.lnb_open) body[data-layouttype="visualtype"][data-layout="regular"] #h
     /*#header .menu .depth1_item.active .depth2:before{display:block;position:absolute;top:0;left:calc(50% - 50vw);width:100vw;height:1px;background-color:#cccfd5;}*/
 
     #header .menu .depth2_list .depth2_item .depth2_text:hover{color:#1b224e;border-color:#1b224e;box-shadow:4px 6px 15px 0 rgba(95, 109, 130, 0.15);text-decoration:none;}
-    #header .menu .depth2_list .depth2_item .depth2_text:before{display:none;position:absolute;top:calc(50% - 10px);right:18px;width:20px;height:20px;background:url("/site/public/images/common/lnb_icon.png") no-repeat;}
+    #header .menu .depth2_list .depth2_item .depth2_text:before{display:none;position:absolute;top:calc(50% - 10px);right:18px;width:20px;height:20px;background:url("/nyj/site/public/images/common/lnb_icon.png") no-repeat;}
     #header .menu .depth2_list .depth2_item.has .depth2_text:before{display:block;}
     #header .menu .depth2_list .depth2_item .depth2_text[target="_blank"]:before{display:block;background-position-x:-40px;}
 
@@ -473,7 +473,7 @@ html:not(.lnb_open) body[data-layouttype="visualtype"][data-layout="regular"] #h
     #header .menu .depth3_list .depth3_item .depth3_text:hover span{text-decoration:underline;}
 
     /* 24.02추가 */
-    #header .menu .depth3_list .depth3_item .depth3_text[target="_blank"]:hover em:before{display: block;content:'';width:13px;height:13px;background-image: url(/site/public/images/sub/depth3_icon.png);background-position:-14px 0px;position: absolute;top:calc(50% - 7px);right:0px;}
+    #header .menu .depth3_list .depth3_item .depth3_text[target="_blank"]:hover em:before{display: block;content:'';width:13px;height:13px;background-image: url(/nyj/site/public/images/sub/depth3_icon.png);background-position:-14px 0px;position: absolute;top:calc(50% - 7px);right:0px;}
 
     
     #header .menu .depth4{display:none;font-size:0;line-height:0;}
@@ -503,12 +503,12 @@ html:not(.lnb_open) body[data-layouttype="visualtype"][data-layout="regular"] #h
     #header .lnb .lnb_topbox{font-size:0;line-height:0;}
 
     #header .lnb .lnb_topbox .login .login_button, #header .lnb .lnb_topbox .family_wrap .family_btn, #header .lnb .lnb_topbox .homepage_wrap a{position:relative;padding:0 25px 0 30px;font-size:15px;line-height:80px;color:#142241;font-weight:500;text-decoration: none;}
-    #header .lnb .lnb_topbox .login .login_button:before, #header .lnb .lnb_topbox .family_wrap .family_btn:before, #header .lnb .lnb_topbox .homepage_wrap a:before{display:block;position:absolute;top:calc(50% - 15px);left:0;width:30px;height:30px;background:url("/site/public/images/common/m_login_icon.png") no-repeat;}
-    #header .lnb .lnb_topbox .login .login_button[title]:before{width:19px;height:20px;background-image: url(/site/public/images/common/logout_icon02.png);background-position: 0 0;top:calc(50% - 10px);transform: scale(0.8);}
+    #header .lnb .lnb_topbox .login .login_button:before, #header .lnb .lnb_topbox .family_wrap .family_btn:before, #header .lnb .lnb_topbox .homepage_wrap a:before{display:block;position:absolute;top:calc(50% - 15px);left:0;width:30px;height:30px;background:url("/nyj/site/public/images/common/m_login_icon.png") no-repeat;}
+    #header .lnb .lnb_topbox .login .login_button[title]:before{width:19px;height:20px;background-image: url(/nyj/site/public/images/common/logout_icon02.png);background-position: 0 0;top:calc(50% - 10px);transform: scale(0.8);}
     #header .lnb .lnb_topbox .login, #header .lnb .lnb_topbox .family_wrap,  #header .lnb .lnb_topbox .homepage_wrap{display:inline-block;}
     #header .lnb .lnb_topbox .homepage_wrap{position: relative;}
     #header .lnb .lnb_topbox .homepage_wrap:before{display:block;position:absolute;top:calc(50% - 7px);left:-10px;width:1px;height:15px;background-color:#d4d9e2;}
-    #header .lnb .lnb_topbox .homepage_wrap a:before{display: block;content:'';width:14px;height:14px;background-image: url(/site/public/images/common/m_login_icon02.png);background-repeat: no-repeat;background-size: contain;position: absolute;top: calc(50% - 7px);left: 6px;}
+    #header .lnb .lnb_topbox .homepage_wrap a:before{display: block;content:'';width:14px;height:14px;background-image: url(/nyj/site/public/images/common/m_login_icon02.png);background-repeat: no-repeat;background-size: contain;position: absolute;top: calc(50% - 7px);left: 6px;}
 
     #header .lnb .lnb_topbox .family_wrap{margin-left:0;}
 
@@ -551,7 +551,7 @@ html:not(.lnb_open) body[data-layouttype="visualtype"][data-layout="regular"] #h
     #header .menu .depth2_list .depth2_item:last-child{border:none;}
 
     #header .menu .depth2_list .depth2_item.active .depth2_text{position:relative;color:#bd2148;border-bottom:2px solid #bd2148;}
-    #header .menu .depth2_list .depth2_item.active .depth2_text:before{display:block;position:absolute;top:0;right:0;width:25px;height:100%;background:url("/site/public/images/common/m_lnb_icon.png") no-repeat center;}
+    #header .menu .depth2_list .depth2_item.active .depth2_text:before{display:block;position:absolute;top:0;right:0;width:25px;height:100%;background:url("/nyj/site/public/images/common/m_lnb_icon.png") no-repeat center;}
 
     #header .menu .depth2_list .depth2_item.active .depth3{visibility:visible;opacity:1;transition-property:visibility, opacity;transition-duration:250ms;transition-timing-function:ease-in-out;}
 
@@ -580,7 +580,7 @@ html:not(.lnb_open) body[data-layouttype="visualtype"][data-layout="regular"] #h
     #header .menu .depth4_list .depth4_item .depth4_text{width:100%;}
 
     #header .lnb .menu_hide{position:absolute;top:0;right:0;}
-    #header .lnb .menu_hide .menu_button{width:80px;height:80px;font-size:0;line-height:0;background:url("/site/public/images/common/m_menu_close.png") no-repeat center right;}
+    #header .lnb .menu_hide .menu_button{width:80px;height:80px;font-size:0;line-height:0;background:url("/nyj/site/public/images/common/m_menu_close.png") no-repeat center right;}
 }
 
 @media all and (max-width:640px) {
@@ -619,7 +619,7 @@ html:not(.lnb_open) body[data-layouttype="visualtype"][data-layout="regular"] #h
 #footer .footer_banner{padding:33px 0;border-top:1px solid #d3d6db;}
 
 #footer .footer_banner .slide_control{position:absolute;top:0;left:0;font-size:0;line-height:0;z-index:1;}
-#footer .footer_banner .slide_control .banner_btn{width:30px;height:30px;border-radius:7px;border:1px solid #d7dae1;background:url("/site/public/images/common/banner_arrow.png") no-repeat -1px -1px;box-sizing:border-box;}
+#footer .footer_banner .slide_control .banner_btn{width:30px;height:30px;border-radius:7px;border:1px solid #d7dae1;background:url("/nyj/site/public/images/common/banner_arrow.png") no-repeat -1px -1px;box-sizing:border-box;}
 #footer .footer_banner .slide_control .banner_btn.auto{background-position-x:-31px;}
 #footer .footer_banner .slide_control .banner_btn.auto.slick-play{background-position-x:-61px;}
 #footer .footer_banner .slide_control .banner_btn.next{background-position-x:-91px;}
@@ -654,7 +654,7 @@ html:not(.lnb_open) body[data-layouttype="visualtype"][data-layout="regular"] #h
 #footer .footer_address .footer_link .link_item{display:inline-block;position:relative;vertical-align:top;}
 #footer .footer_address .footer_link .link_item a{padding:0 20px;font-size:17px;line-height:25px;letter-spacing:-0.02em;font-weight:500;color:#2a2e34;}
 #footer .footer_address .footer_link .link_item.point_link a{position:relative;padding-left:30px;color:#1d2f9b;}
-#footer .footer_address .footer_link .link_item.point_link a:before{display:block;position:absolute;top:calc(50% - 10px);left:3px;width:20px;height:20px;background:url("/site/public/images/common/footer_icon.png") no-repeat;}
+#footer .footer_address .footer_link .link_item.point_link a:before{display:block;position:absolute;top:calc(50% - 10px);left:3px;width:20px;height:20px;background:url("/nyj/site/public/images/common/footer_icon.png") no-repeat;}
 #footer .footer_address .footer_link .link_item:before{display:block;position:absolute;top:calc(50% - 7px);right:0;width:1px;height:15px;background-color:#cccfd5;}
 #footer .footer_address .footer_link .link_item:last-child:before{display:none;}
 
@@ -664,7 +664,7 @@ html:not(.lnb_open) body[data-layouttype="visualtype"][data-layout="regular"] #h
 @media all and (min-width:1001px) {
     #footer .up{position:fixed;bottom:88px;right:70px;z-index:1;}
 	#footer .up{z-index:7;}
-    #footer .up .up_button{display:none;width:64px;height:64px;border-radius:50%;background:#f1f3f6 url("/site/public/images/common/up_icon.png") no-repeat center;font-size:0;line-height:0;}
+    #footer .up .up_button{display:none;width:64px;height:64px;border-radius:50%;background:#f1f3f6 url("/nyj/site/public/images/common/up_icon.png") no-repeat center;font-size:0;line-height:0;}
     #footer .up .up_button.active{display:block;}
 }
 
@@ -687,7 +687,7 @@ html:not(.lnb_open) body[data-layouttype="visualtype"][data-layout="regular"] #h
 /* 비주얼 타입 - 와이드 */
 body.visualtype[data-layout="wide"] #header{position:absolute;width:100%;}
 /*.lnb_open body.visualtype[data-layout="wide"] #header:after{display:block;position:absolute;top:-50px;left:0;width:100%;height:100%;background-color:#fff;}*/
-/* #footer.visual_footer:before{display:block;position:absolute;bottom:0;left:0;width:100%;height:100%;background-image:url("/site/public/images/common/visual_footer.png");background-repeat:no-repeat;background-position:center bottom;background-size:cover;z-index:-1;} */
+/* #footer.visual_footer:before{display:block;position:absolute;bottom:0;left:0;width:100%;height:100%;background-image:url("/nyj/site/public/images/common/visual_footer.png");background-repeat:no-repeat;background-position:center bottom;background-size:cover;z-index:-1;} */
 
 
 html:not(.lnb_open) body.visualtype[data-layout="wide"] #header .header_top{background-color:transparent;}
@@ -697,7 +697,7 @@ html:not(.lnb_open) body.visualtype[data-layout="wide"] #header .header_top .hea
 
 
 html:not(.lnb_open) body.visualtype[data-layout="wide"] #header .header_box .logo a{color:#fff;}
-html:not(.lnb_open) body.visualtype[data-layout="wide"] #header .header_box .logo a .logo_image{background-image:url("/site/public/images/common/w_logo.png");}
+html:not(.lnb_open) body.visualtype[data-layout="wide"] #header .header_box .logo a .logo_image{background-image:url("/nyj/site/public/images/common/w_logo.png");}
 
 body.visualtype[data-layout="wide"] #header .lnb{background-color:unset;}
 /*.lnb_open body.visualtype[data-layout="wide"] #header .lnb{background-color:#fff;}*/
@@ -708,11 +708,11 @@ html:not(.lnb_open) body.visualtype[data-layout="wide"] #header .lnb:before{disp
 
 html:not(.lnb_open) body.visualtype[data-layout="wide"] #header .menu .depth1_list .depth1_item .depth1_text{color:#fff;}
 
-html:not(.lnb_open) body.visualtype[data-layout="wide"] #header .header_login .login_wrap .login .login_button:before{background-image:url("/site/public/images/common/w_login_icon.png");}
-html:not(.lnb_open) body.visualtype[data-layout="wide"] #header .header_login .login_wrap .sitemap a:before, body.visualtype[data-layout="wide"] #header .header_box .menu_show .menu_button:before{background-image:url("/site/public/images/common/w_sitemap_icon.png");}
+html:not(.lnb_open) body.visualtype[data-layout="wide"] #header .header_login .login_wrap .login .login_button:before{background-image:url("/nyj/site/public/images/common/w_login_icon.png");}
+html:not(.lnb_open) body.visualtype[data-layout="wide"] #header .header_login .login_wrap .sitemap a:before, body.visualtype[data-layout="wide"] #header .header_box .menu_show .menu_button:before{background-image:url("/nyj/site/public/images/common/w_sitemap_icon.png");}
 
 
-/*body.visualtype[data-layout="wide"] .sub_visual{width:100%;height:1100px;background:url("/site/public/images/common/visual_img.png") no-repeat center;}*/
+/*body.visualtype[data-layout="wide"] .sub_visual{width:100%;height:1100px;background:url("/nyj/site/public/images/common/visual_img.png") no-repeat center;}*/
 
 body.visualtype[data-layout="wide"] #header .header_box:before{z-index:31;}
 html:not(.lnb_open) body.visualtype[data-layout="wide"] #header .header_box:before{display:none;}
@@ -747,15 +747,15 @@ html:not(.lnb_open) body.visualtype[data-layout="wide"] #header .header_box:befo
 
     html:not(.lnb_open) body.visualtype[data-layout="wide"] #header .family_wrap:before{background-color:#fff;opacity:20%;}
     html:not(.lnb_open) body.visualtype[data-layout="wide"] #header .family_wrap .family_btn{color:#fff;}
-    html:not(.lnb_open) body.visualtype[data-layout="wide"] #header .family_wrap .family_btn:before{background-image:url("/site/public/images/common/w_family_icon.png");}
-    html:not(.lnb_open) body.visualtype[data-layout="wide"] #header .family_wrap .family_btn:after{background-image:url("/site/public/images/common/w_family_arrow.png");}
+    html:not(.lnb_open) body.visualtype[data-layout="wide"] #header .family_wrap .family_btn:before{background-image:url("/nyj/site/public/images/common/w_family_icon.png");}
+    html:not(.lnb_open) body.visualtype[data-layout="wide"] #header .family_wrap .family_btn:after{background-image:url("/nyj/site/public/images/common/w_family_arrow.png");}
 }
 
 /* visual_footer */
 /* #footer.visual_footer{position:relative;padding-top:103px;}
-#footer.visual_footer{padding-top:103px;background:url("/site/public/images/common/visual_footer.png") no-repeat center bottom;}
+#footer.visual_footer{padding-top:103px;background:url("/nyj/site/public/images/common/visual_footer.png") no-repeat center bottom;}
 #footer.visual_footer .footer_banner{border-color:rgba(255, 255, 255, 0.2);}
-#footer.visual_footer .footer_banner .slide_control .banner_btn{background-image:url("/site/public/images/common/w_banner_arrow.png");}
+#footer.visual_footer .footer_banner .slide_control .banner_btn{background-image:url("/nyj/site/public/images/common/w_banner_arrow.png");}
 #footer.visual_footer .footer_banner .banner_list .banner_item a{color:#fff;}
 
 #footer.visual_footer .footer_address{border-color:rgba(255, 255, 255, 0.6);}
@@ -763,7 +763,7 @@ html:not(.lnb_open) body.visualtype[data-layout="wide"] #header .header_box:befo
 
 #footer.visual_footer .footer_address .footer_info{color:#fff;}
 #footer .footer_address .footer_link .link_item.point_link.type2 a{color:#a7da5d;}
-#footer .footer_address .footer_link .link_item.point_link.type2 a:before{background-image:url("/site/public/images/common/footer_icon2.png");} */
+#footer .footer_address .footer_link .link_item.point_link.type2 a:before{background-image:url("/nyj/site/public/images/common/footer_icon2.png");} */
 
 @media all and (min-width:1801px) {
     body.visualtype[data-layout="wide"] #header .header_login {right:calc((100% - 1780px) / 2);}
@@ -806,7 +806,7 @@ html:not(.lnb_open) body.visualtype[data-layout="wide"] #header .header_box:befo
     body.visualtype[data-layout="wide"] #header .lnb{background-color:#fff;}
 
     body.visualtype[data-layout="wide"] #header .header_box .logo a{color:#fff;}
-    body.visualtype[data-layout="wide"] #header .header_box .logo a .logo_image{background-image:url("/site/public/images/common/w_logo.png");}
+    body.visualtype[data-layout="wide"] #header .header_box .logo a .logo_image{background-image:url("/nyj/site/public/images/common/w_logo.png");}
 }
 
 
@@ -822,23 +822,23 @@ html:not(.lnb_open) body.visualtype[data-layout="wide"] #header .header_box:befo
 
     html.lnb_open body.visualtype[data-layout="wide"] #header .family_wrap:before{background-color:#d4d9e2;opacity:1;}
     html.lnb_open body.visualtype[data-layout="wide"] #header .family_wrap .family_btn{color:#142241;}
-    html.lnb_open body.visualtype[data-layout="wide"] #header .family_wrap .family_btn:before{background-image:url("/site/public/images/common/family_icon.png");}
-    html.lnb_open body.visualtype[data-layout="wide"] #header .family_wrap .family_btn:after{background-image:url("/site/public/images/common/family_arrow.png");}
+    html.lnb_open body.visualtype[data-layout="wide"] #header .family_wrap .family_btn:before{background-image:url("/nyj/site/public/images/common/family_icon.png");}
+    html.lnb_open body.visualtype[data-layout="wide"] #header .family_wrap .family_btn:after{background-image:url("/nyj/site/public/images/common/family_arrow.png");}
 
     html.lnb_open body.visualtype[data-layout="wide"] #header .family_wrap .family_btn:hover{color:#b52043;}
-    html.lnb_open body.visualtype[data-layout="wide"] #header .family_wrap .family_btn:hover:before{background-image:url("/site/public/images/common/family_icon_hover.png");}
-    html.lnb_open body.visualtype[data-layout="wide"] #header .family_wrap .family_btn:hover:after{background-image:url("/site/public/images/common/family_arrow_hover.png");}
+    html.lnb_open body.visualtype[data-layout="wide"] #header .family_wrap .family_btn:hover:before{background-image:url("/nyj/site/public/images/common/family_icon_hover.png");}
+    html.lnb_open body.visualtype[data-layout="wide"] #header .family_wrap .family_btn:hover:after{background-image:url("/nyj/site/public/images/common/family_arrow_hover.png");}
 
     html.lnb_open body.visualtype[data-layout="wide"] #header .header_box .logo a{color:#3d4254;}
-    html.lnb_open body.visualtype[data-layout="wide"] #header .header_box .logo a .logo_image{background-image:url("/site/public/images/common/logo.png");}
+    html.lnb_open body.visualtype[data-layout="wide"] #header .header_box .logo a .logo_image{background-image:url("/nyj/site/public/images/common/logo.png");}
 
     html.lnb_open body.visualtype[data-layout="wide"] #header .menu .depth1_list .depth1_item .depth1_text{color:#252831;}
 
-    html.lnb_open body.visualtype[data-layout="wide"] #header .header_login .login_wrap .login .login_button:before{background-image:url("/site/public/images/common/login_icon.png");}
-    html.lnb_open body.visualtype[data-layout="wide"] #header .header_login .login_wrap .sitemap a:before, html body.visualtype[data-layout="wide"] #header:hover .header_box .menu_show .menu_button:before{background-image:url("/site/public/images/common/sitemap_icon.png");}
+    html.lnb_open body.visualtype[data-layout="wide"] #header .header_login .login_wrap .login .login_button:before{background-image:url("/nyj/site/public/images/common/login_icon.png");}
+    html.lnb_open body.visualtype[data-layout="wide"] #header .header_login .login_wrap .sitemap a:before, html body.visualtype[data-layout="wide"] #header:hover .header_box .menu_show .menu_button:before{background-image:url("/nyj/site/public/images/common/sitemap_icon.png");}
 
-    html.lnb_open body.visualtype[data-layout="wide"] #header .header_login .login_wrap .login .login_button:hover:before{background-image:url("/site/public/images/common/login_icon_hover.png");}
-    html.lnb_open body.visualtype[data-layout="wide"] #header .header_login .login_wrap .sitemap a:hover:before{background-image:url("/site/public/images/common/sitemap_icon_hover.png");}
+    html.lnb_open body.visualtype[data-layout="wide"] #header .header_login .login_wrap .login .login_button:hover:before{background-image:url("/nyj/site/public/images/common/login_icon_hover.png");}
+    html.lnb_open body.visualtype[data-layout="wide"] #header .header_login .login_wrap .sitemap a:hover:before{background-image:url("/nyj/site/public/images/common/sitemap_icon_hover.png");}
 }
 
 @media all and (min-width: 1001px) {
@@ -851,23 +851,23 @@ html:not(.lnb_open) body.visualtype[data-layout="wide"] #header .header_box:befo
 
     html body.visualtype[data-layout="wide"] #header:hover .family_wrap:before{background-color: #d4d9e2;opacity: 1;}
     html body.visualtype[data-layout="wide"] #header:hover .family_wrap .family_btn{color: #142241;}
-    html body.visualtype[data-layout="wide"] #header:hover .family_wrap .family_btn:before{background-image: url("/site/public/images/common/family_icon.png");}
-    html body.visualtype[data-layout="wide"] #header:hover .family_wrap .family_btn:after{background-image: url("/site/public/images/common/family_arrow.png");}
+    html body.visualtype[data-layout="wide"] #header:hover .family_wrap .family_btn:before{background-image: url("/nyj/site/public/images/common/family_icon.png");}
+    html body.visualtype[data-layout="wide"] #header:hover .family_wrap .family_btn:after{background-image: url("/nyj/site/public/images/common/family_arrow.png");}
 
     html body.visualtype[data-layout="wide"] #header:hover .family_wrap .family_btn:hover{color: #b52043;}
-    html body.visualtype[data-layout="wide"] #header:hover .family_wrap .family_btn:hover:before{background-image: url("/site/public/images/common/family_icon_hover.png");}
-    html body.visualtype[data-layout="wide"] #header:hover .family_wrap .family_btn:hover:after{background-image: url("/site/public/images/common/family_arrow_hover.png");}
+    html body.visualtype[data-layout="wide"] #header:hover .family_wrap .family_btn:hover:before{background-image: url("/nyj/site/public/images/common/family_icon_hover.png");}
+    html body.visualtype[data-layout="wide"] #header:hover .family_wrap .family_btn:hover:after{background-image: url("/nyj/site/public/images/common/family_arrow_hover.png");}
 
     html body.visualtype[data-layout="wide"] #header:hover .header_box .logo a{color: #3d4254;}
-    html body.visualtype[data-layout="wide"] #header:hover .header_box .logo a .logo_image{background-image: url("/site/public/images/common/logo.png");}
+    html body.visualtype[data-layout="wide"] #header:hover .header_box .logo a .logo_image{background-image: url("/nyj/site/public/images/common/logo.png");}
 
     html body.visualtype[data-layout="wide"] #header:hover .menu .depth1_list .depth1_item .depth1_text{color: #252831;}
 
-    html body.visualtype[data-layout="wide"] #header:hover .header_login .login_wrap .login .login_button:before{background-image: url("/site/public/images/common/login_icon.png");}
-    html body.visualtype[data-layout="wide"] #header:hover .header_login .login_wrap .sitemap a:before, html body.visualtype[data-layout="wide"] #header:hover .header_box .menu_show .menu_button:before{background-image: url("/site/public/images/common/sitemap_icon.png");}
+    html body.visualtype[data-layout="wide"] #header:hover .header_login .login_wrap .login .login_button:before{background-image: url("/nyj/site/public/images/common/login_icon.png");}
+    html body.visualtype[data-layout="wide"] #header:hover .header_login .login_wrap .sitemap a:before, html body.visualtype[data-layout="wide"] #header:hover .header_box .menu_show .menu_button:before{background-image: url("/nyj/site/public/images/common/sitemap_icon.png");}
 
-    html body.visualtype[data-layout="wide"] #header:hover .header_login .login_wrap .login .login_button:hover:before{background-image: url("/site/public/images/common/login_icon_hover.png");}
-    html body.visualtype[data-layout="wide"] #header:hover .header_login .login_wrap .sitemap a:hover:before{background-image: url("/site/public/images/common/sitemap_icon_hover.png");}
+    html body.visualtype[data-layout="wide"] #header:hover .header_login .login_wrap .login .login_button:hover:before{background-image: url("/nyj/site/public/images/common/login_icon_hover.png");}
+    html body.visualtype[data-layout="wide"] #header:hover .header_login .login_wrap .sitemap a:hover:before{background-image: url("/nyj/site/public/images/common/sitemap_icon_hover.png");}
 }
 
 @media all and (max-width: 1200px) and (min-width: 1001px) {
@@ -890,14 +890,14 @@ html:not(.lnb_open) body.visualtype[data-layout="wide"] #header .header_box:befo
 .public_popup_zone .public_popup_control .slick-text.current:before{display:block;position:absolute;top:calc(50% - 2px);right:-13px;width:3px;height:3px;background-color:#abb3bb;}
 .public_popup_zone .public_popup_control .slick-text.total{margin-right:12px;}
 
-.public_popup_zone .public_popup_control .slick-arrow{width:24px;height:24px;background:url("/site/public/images/main/popup_arrow.png") no-repeat;}
+.public_popup_zone .public_popup_control .slick-arrow{width:24px;height:24px;background:url("/nyj/site/public/images/main/popup_arrow.png") no-repeat;}
 .public_popup_zone .public_popup_control .slick-arrow + .slick-arrow{margin-left:4px;}
 .public_popup_zone .public_popup_control .auto{background-position-x:-24px;}
 .public_popup_zone .public_popup_control .auto.slick-play{background-position-x:-48px;}
 .public_popup_zone .public_popup_control .next{background-position-x:-72px;}
 .public_popup_zone .public_popup_control .more_btn{position: relative; vertical-align: top; width:24px;height:24px; margin-left:4px;z-index: 1;border-radius: 50%;}
 .public_popup_zone .public_popup_control .more_btn:before{display: block; content:''; width:25px;height:25px;background-color:#ededf5; border-radius: 50%;position: absolute;top:0;left:0;z-index: -1;}
-.public_popup_zone .public_popup_control .more_btn:after{display: block;content:'';width:10px;height:10px;background-image: url(/site/public/images/main/popup_more_btn.png);position: absolute;top:0;left: 0;bottom:0;right: 0;margin:auto;}
+.public_popup_zone .public_popup_control .more_btn:after{display: block;content:'';width:10px;height:10px;background-image: url(/nyj/site/public/images/main/popup_more_btn.png);position: absolute;top:0;left: 0;bottom:0;right: 0;margin:auto;}
 
 @media all and (max-width:1000px) {
     .public_popup_zone{width:280px;}
@@ -973,11 +973,11 @@ html:not(.lnb_open) body.visualtype[data-layout="wide"] #header .header_box:befo
 .footer_qr{display:none;}
 
 /* 24.1.11 안형주 농업기술센터 main footer 수정 */
-#main #footer.visual_footer:before{display:block;position:absolute;bottom:0;left:0;width:100%;height:100%;background-image:url("/site/public/images/common/visual_footer.png");background-repeat:no-repeat;background-position:center bottom;background-size:cover;z-index:-1;}
+#main #footer.visual_footer:before{display:block;position:absolute;bottom:0;left:0;width:100%;height:100%;background-image:url("/nyj/site/public/images/common/visual_footer.png");background-repeat:no-repeat;background-position:center bottom;background-size:cover;z-index:-1;}
 #main #footer.visual_footer{position:relative;padding-top:103px;}
-/*#footer.visual_footer{padding-top:103px;background:url("/site/public/images/common/visual_footer.png") no-repeat center bottom;}*/
+/*#footer.visual_footer{padding-top:103px;background:url("/nyj/site/public/images/common/visual_footer.png") no-repeat center bottom;}*/
 #main #footer.visual_footer .footer_banner{border-color:rgba(255, 255, 255, 0.2);}
-#main #footer.visual_footer .footer_banner .slide_control .banner_btn{background-image:url("/site/public/images/common/w_banner_arrow.png");}
+#main #footer.visual_footer .footer_banner .slide_control .banner_btn{background-image:url("/nyj/site/public/images/common/w_banner_arrow.png");}
 #main #footer.visual_footer .footer_banner .banner_list .banner_item a{color:#fff;}
 
 #main #footer.visual_footer .footer_address{border-color:rgba(255, 255, 255, 0.6);}
@@ -985,7 +985,7 @@ html:not(.lnb_open) body.visualtype[data-layout="wide"] #header .header_box:befo
 
 #main #footer.visual_footer .footer_address .footer_info{color:#fff;}
 #main #footer .footer_address .footer_link .link_item.point_link.type2 a{color:#a7da5d;}
-#main #footer .footer_address .footer_link .link_item.point_link.type2 a:before{background-image:url("/site/public/images/common/footer_icon2.png");}
+#main #footer .footer_address .footer_link .link_item.point_link.type2 a:before{background-image:url("/nyj/site/public/images/common/footer_icon2.png");}
 
 
 /* 24.02  웹와치 인증마크 추가 */
