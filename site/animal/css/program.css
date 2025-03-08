@@ -53,13 +53,13 @@
 .p-wrap.adopt_list .adopt_item .adopt_item_checkbox label{position:relative;}
 .p-wrap.adopt_list .adopt_item .adopt_item_checkbox input[type="checkbox"]{position:absolute;top:3px;left:3px;}
 .p-wrap.adopt_list .adopt_item .adopt_item_checkbox input[type="checkbox"]+.label_title{position:relative;z-index:2;width:20px;height:20px;box-sizing:border-box;border:1px solid #aaa;border-radius:6px;background:#fff;}
-.p-wrap.adopt_list .adopt_item .adopt_item_checkbox input[type="checkbox"]+.label_title:before{display:block;content:'';position:absolute;top:4px;left:3px;width:12px;height:10px;background:url(/common/images/program/p-icon.png) -64px -190px no-repeat;}
+.p-wrap.adopt_list .adopt_item .adopt_item_checkbox input[type="checkbox"]+.label_title:before{display:block;content:'';position:absolute;top:4px;left:3px;width:12px;height:10px;background:url(/nyj/common/images/program/p-icon.png) -64px -190px no-repeat;}
 .p-wrap.adopt_list .adopt_item .adopt_item_checkbox input[type="checkbox"]:checked+.label_title{border-color:#1b224e;background-color:#1b224e;}
 .p-wrap.adopt_list .adopt_item .adopt_item_checkbox input[type="checkbox"]:focus+.label_title{outline:2px dotted #2b69fc;}
 .p-wrap.adopt_list .adopt_item .item_anchor{display:block;border-radius:20px 20px 30px 30px;text-decoration:none;}
 .p-wrap.adopt_list .adopt_item .item_box{box-sizing:border-box;border:1px solid #cacbce;border-radius:20px 20px 30px 30px;transition-property:border-color,border-radius,box-shadow;transition-duration:400ms;}
 .p-wrap.adopt_list .adopt_item .item_box .photobox{overflow:hidden;position:relative;height:225px;margin:-1px -1px 0 -1px;border-radius:20px; transition-property:height,margin,background-position;transition-duration:400ms;}
-.p-wrap.adopt_list .adopt_item .item_box .photobox{background:url(/site/public/images/template/no_image_icon.png) #eaeff7 center center no-repeat;}
+.p-wrap.adopt_list .adopt_item .item_box .photobox{background:url(/nyj/site/public/images/template/no_image_icon.png) #eaeff7 center center no-repeat;}
 .p-wrap.adopt_list .adopt_item .item_box .photobox img{width:100%;height:100%;max-width:none;max-height:none;object-fit:cover;object-position:center;transition-property:margin,width,height;transition-duration:400ms;}
 .p-wrap.adopt_list .adopt_item .item_box .text_box{position:relative;min-height:134px;padding:34px 35px 18px;}
 .p-wrap.adopt_list .adopt_item .item_box .text_box .state{display:block;position:absolute;top:-27px;right:14px;min-width:120px;padding:15px 15px 13px;box-sizing:border-box;border-radius:25px;background-color:#666;text-align:center;font-size:16px;line-height:22px;font-weight:400;letter-spacing:-0.02em;color:#fff;font-family:'JalnanGothic','Malgun Gothic','맑은 고딕',Dotum,'돋움',Helvetica,AppleSDGothicNeo,sans-serif;}
